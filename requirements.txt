@@ -1,0 +1,55 @@
+# Core Deep Learning
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+
+# Hugging Face & Diffusion
+transformers==4.36.2
+diffusers==0.24.0
+accelerate==0.24.1
+safetensors==0.4.1
+
+# LoRA & Fine-tuning
+peft==0.7.1
+
+# Face Detection & Embeddings
+insightface==0.7.3
+retinaface==0.0.13
+onnx==1.15.0
+onnxruntime==1.17.1
+
+# Image Processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+scikit-image==0.22.0
+
+# Web UI
+gradio==4.19.2
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# Utilities
+numpy==1.24.3
+scipy==1.11.4
+pandas==2.1.3
+matplotlib==3.8.2
+tqdm==4.66.1
+python-dotenv==1.0.0
+PyYAML==6.0.1
+
+# Safety & NSFW Filter
+safety==2.3.5
+
+# Utilities
+requests==2.31.0
+click==8.1.7
+loguru==0.7.2
+psutil==5.9.6
+
+# Development (Optional)
+ipython==8.18.1
+jupyter==1.0.0
+ipykernel==6.26.0
+black==23.12.0
+flake8==6.1.0
+pytest==7.4.3
